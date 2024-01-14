@@ -27,8 +27,8 @@ async def main():
             await idle()
     except KeyboardInterrupt:
         logger.warning("Forced stop, Bye!")
-    finally:
-        await pornhub.stop()
+   # finally:
+    #    await pornhub.stop()
 
 
 if __name__ == "__main__":
