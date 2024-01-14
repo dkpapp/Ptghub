@@ -51,6 +51,7 @@ class PornHub(Client):
         except BadRequest:
             logger.warning("Unable to send message to log_chat!")
 
-    async def stop(self):
+
+async def stop(self):
         await super().stop()
         logger.warning("PornHub stopped, Bye!")
